@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Pesquisa de satisfação do cliente</tittle>
+    </head>
+    <corpo>
+        <p>
+           Olá! Essa é uma breve pesquisa a respeito da sua satisfação no que dis respeito ao asfaltamento da cidade onde você mora. Bora lá? 
+        </p>
+        <form action="https://www.youtube.com/watch?v=8dhZ-RQfu5Q" method="POST">
+            <p>
+                <label for="email">Seu e-mail</label> <br>
+                <input type="text" placeholder="Seu e-mail" id="email"/>
+            </p>
+            <p>
+                <label for="nome">Nome completo</label> <br>
+                <input Type="text" placeholder="Seu Nome" id="nome"/>
+            </p>
+            <p>
+                <label for="contato">Num para contato</label> <br>
+                <input type="number" placeholder="(01) 2345-6789" id="contato"/>
+            </p>
+            <hr>
+            <p>
+                Numa escala de 1 a 5 o quanto diria que se sente safisfeito com o serviço de manutenção das vias da sua cidade? Sendo 1 "nada satisfeito" e 5 "muito satisfeito". <br>
+                <input type="radio" id="5" name="satisfaction1" />
+                <label for="5">5</label>
+                <input type="radio" id="4" name="satisfaction1" />
+                <label for="4">4</label>
+                <input type="radio" id="3" name="satisfaction1" />
+                <label for="3">3</label>
+                <input type="radio" id="2" name="satisfaction1" />
+                <label for="2">2</label>
+                <input type="radio" id="1" name="satisfaction1" />
+                <label for="1">1</label>
+            </p>
+            <p>
+                Diria que esta satisfeito com a condição das vias da sua cidade? <br>
+                <input type="radio" id="s" name="satisfaction2" />
+                <label for="s">Sim</label>
+                <input type="radio" id="n" name="satisfaction2" />
+                <label for="n">Não</label>
+            </p>
+            <p>
+                Você ultiliza das vias de rodagem em um carro ou moto com frequência?
+                <input type="radio" id="s" name="satisfaction3" />
+                <label for="s">Sim</label>
+                <input type="radio" id="n" name="satisfaction3" />
+                <label for="n">Não</label>
+                Se sim, qual?
+                <select multiple>   
+                    <option>Carro</option>
+                    <option>Moto</option>
+                    <option>Ônibus</option>
+                    <option>Motoneta</option>
+                    <option>Caminhão</option>
+                    <option>Micro ônibus</option>
+                    <option>outro</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="shareinfo" >
+                <label for="shareinfo">Concordo que minhas informações sejam compartilhadas com terceiros</label>
+            </p>
+            <P>
+                <input type="submit" value="Concluir"/>
+            </P>
+        </form>
+    </corpo>
+</html>
