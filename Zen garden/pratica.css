@@ -1,0 +1,37 @@
+body {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-indent: 1em;
+}
+
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    text-align: right; 
+}
+
+h3 {
+    font-size: 1.2rem; 
+    text-align: right; 
+}
+
+
+#summary {
+    text-align: right;
+}
+
+#main-content p {
+    line-height: 1.5; 
+}
+abbr {
+    font-variant: small-caps; 
+}
